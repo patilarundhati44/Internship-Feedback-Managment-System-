@@ -11,26 +11,30 @@ import java.util.List;
 @RestController
 @CrossOrigin("*")
 @RequestMapping("/api/feedback")
-public class FeedbackController {
+public class FeedbackController 
+
+{
 
     @Autowired
     private FeedbackService service;
 
-    // ✅ POST feedback to: /api/feedback
     @PostMapping
     public Feedback submitFeedback(@RequestBody Feedback feedback) {
         return service.saveFeedback(feedback);
-    }
+ }
 
-    // ✅ GET all feedback from: /api/feedback
     @GetMapping
-    public List<Feedback> getAllFeedback() {
+    public List<Feedback> getAllFeedback()
+    
+    {
         return service.getAllFeedbacks();
     }
 
-    // ✅ DELETE feedback by ID: /api/feedback/{id}
+
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteFeedback(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteFeedback(@PathVariable Long id) 
+    
+    {
         service.deleteFeedback(id);
         return ResponseEntity.noContent().build();
     }
