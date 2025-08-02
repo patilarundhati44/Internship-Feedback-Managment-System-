@@ -8,21 +8,28 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class FeedbackService {
+public class FeedbackService
+    
+{
 
     @Autowired
     private FeedbackRepository repository;
 
-    public Feedback saveFeedback(Feedback feedback) {
+    public Feedback saveFeedback(Feedback feedback)
+    
+    {
         return repository.save(feedback);
     }
 
-    public List<Feedback> getAllFeedbacks() {
+    public List<Feedback> getAllFeedbacks() 
+    
+    {
         return repository.findAll();
     }
 
-    // ✅ Add this method to support DELETE
-    public void deleteFeedback(Long id) {
+    public void deleteFeedback(Long id) 
+    
+    {
         repository.deleteById(id);
     }
 }
