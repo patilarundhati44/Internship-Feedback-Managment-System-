@@ -122,13 +122,15 @@ Admin can log in, view all feedback, and manage records.
 
 ---
 
-## Screenshots 
+## Screenshots
 
-### Frontend Form
-![Frontend Form](screenshots/frontend-form.png)
+### Frontend Form  
+![Frontend Form](frontend_form.png.png)
 
-### Backend API
-![Backend API](screenshots/backend-api.png)
+### Backend API  
+![Backend API](Backend.png.png)
+
+---
 
 
 ##  GitHub Repo
