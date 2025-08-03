@@ -122,6 +122,15 @@ Admin can log in, view all feedback, and manage records.
 
 ---
 
+## Screenshots 
+
+### Frontend Form
+![Frontend Form](screenshots/frontend-form.png)
+
+### Backend API
+![Backend API](screenshots/backend-api.png)
+
+
 ##  GitHub Repo
 
  [Internship Feedback Management System on GitHub](https://github.com/patilarundhati44/Internship-Feedback-Managment-System-)
