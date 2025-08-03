@@ -65,12 +65,15 @@ Admin can log in, view all feedback, and manage records.
 
 ##  User Roles
 
+
 | Role    | Access                                      |
 |---------|---------------------------------------------|
 | Student | Submit feedback                             |
 | Admin   | View/Delete feedback, Monitor performance   |
 
+
 ---
+
 
 ##  REST API Endpoints
 
@@ -80,7 +83,9 @@ Admin can log in, view all feedback, and manage records.
 | POST   | /feedback/save          | Submit feedback        |
 | DELETE | /feedback/delete/{id}   | Delete feedback by ID  |
 
+
 ---
+
 
 ##  Sample API Response
 
@@ -98,6 +103,7 @@ Admin can log in, view all feedback, and manage records.
     "lectureDate": "2025-07-25"
   }
 ]
+
 
 ```
 
@@ -127,6 +133,8 @@ Admin can log in, view all feedback, and manage records.
 ### Frontend Form  
 ![Frontend Form](frontend-form.png.png)
 
+
+
 ### Backend API  
 ![Backend API](Backend.png.png)
 
@@ -134,6 +142,7 @@ Admin can log in, view all feedback, and manage records.
 
 
 ##  GitHub Repo
+
 
  [Internship Feedback Management System on GitHub](https://github.com/patilarundhati44/Internship-Feedback-Managment-System-)
 
