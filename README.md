@@ -125,7 +125,7 @@ Admin can log in, view all feedback, and manage records.
 ## Screenshots
 
 ### Frontend Form  
-![Frontend Form](frontend_form.png.png)
+![Frontend Form](frontend-form.png.png)
 
 ### Backend API  
 ![Backend API](Backend.png.png)
